@@ -1,8 +1,5 @@
 #!/usr/bin/python
 import sys #module used to receive command line arguments into script and check python version
-#if sys.version.startswith('2.'):
-#    print("Script only runs in Python 3 and above.")
-#    sys.exit(1)
 import requests #module used to request Dell webpage
 from bs4 import BeautifulSoup
 
