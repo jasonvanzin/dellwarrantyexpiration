@@ -6,7 +6,7 @@ from bs4 import BeautifulSoup
 def getwarranty(servicetag):
     
     """ (str) -> str
-    Returns date as string by downloading html as a string and performing a regex search
+    Returns date as string by downloading html as a string and using BeautifulSoup to pull the dates out.
     to find the date. 
     >>> getwarranty('2M95GR1')
     '4/16/2014'
